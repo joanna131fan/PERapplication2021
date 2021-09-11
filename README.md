@@ -13,4 +13,7 @@ The original image and the filtered image show be displayed and also saved onto 
 Justification for HSL cutoffs: using a trackbar, I tested the range of neon orange that best satisfied all test cases. Since the hue, saturation, and luminance of the cones differed from picture to picture, the cutoffs I chose were able to satisfy the cones in all sorts of lighting. This meant finding an "average" that in some cases led to closely colored objects to also be highlighted but to a somewhat unrecognizable degree.
 
 ## Task C
-Run in terminal by calling $ python TaskC.py $
+Modify:
+- Change path of CSV file
+Run in terminal by calling ` python TaskC.py `.
+A prompt will appear asking you if you want to encode or decode the file. First encode, then decode. Each time, it deletes the unused data format to save space (i.e. encoding would delete the CSV file and vis versa).
