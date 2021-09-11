@@ -16,7 +16,7 @@ Justification for HSL cutoffs: using a trackbar, I tested the range of neon oran
 Modify:
 - Change path of CSV file
 
-The data format encoding I chose was Base64 mainly because after an extensive session of Googling I have come to the conclusion that it uses a relatively larger character set to achieve a more efficient encoding. The algorithm is more complex than hex encoding, but the data size is only increased by 33%, which is good for space efficiency. I'm sure there are many better methods of encoding and decoding the given file, and I hope that by joining the team I will be able to learn about them and apply them to the software of the electric car.
+The data format encoding I chose was Base64 mainly because after an extensive session of Googling I have come to the conclusion that it uses a relatively larger character set to achieve a more efficient encoding. The algorithm is more complex than hex encoding, but the data size is only increased by 33%, which is good for space efficiency. I'm sure there are many better methods of encoding and decoding the given file, and I hope that by joining the team I will be able to learn about them and apply them to the software of the electric car. During my research session, I also came across bit rotation and bit shifting which I hope to learn more about in the future to be able to write the encoding/decoding from scratch.
 
 ### Run TaskC.py
 Run in terminal by calling ` python TaskC.py `.
